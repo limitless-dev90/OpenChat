@@ -4,10 +4,13 @@ TCP, kotlin 학습을 위해서 간단한 OpenChat 프로젝트
 
 # TCP 서버 (로컬서버) 구동 방법
 환경 : windows10
+
 사용포트 : 5001
 
 구동 방법: 
+
 TCPTest 파일을 아래 경로에 다운로드 받습니다.
+
 C:\Java\project\
 
 cmd 창을 켜고 C:\Java\project\TCPTest\src 경로로 이동
@@ -15,6 +18,7 @@ cmd 창을 켜고 C:\Java\project\TCPTest\src 경로로 이동
 cd C:\Java\project\TCPTest\src
 
 서버 구동 명령어
+
 java server.TCPServer_1N
 
 아래 이미지와 같이 표시되면 서버 구동 완료
