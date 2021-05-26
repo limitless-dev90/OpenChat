@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10sp"
+    android:layout_marginRight="10sp"
+    android:layout_marginTop="10sp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/profileIv_L"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="4dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idTv_L"
+                android:layout_width="wrap_content"
+                android:layout_height="25sp"
+                android:text="아이디"/>
+
+            <TextView
+                android:id="@+id/messageTv_L"
+                android:background="@color/colorChatting"
+                android:padding="10sp"
+                android:maxWidth="200px"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="메세지"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/timeTv_L"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom|left"
+            android:textSize="8sp"
+            android:text="시간"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/timeTv_R"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom|right"
+            android:textSize="8sp"
+            android:text="시간"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idTv_R"
+                android:layout_width="wrap_content"
+                android:layout_height="25sp"
+                android:layout_gravity="right"
+                android:text="아이디"/>
+
+            <TextView
+                android:id="@+id/messageTv_R"
+                android:background="#B2DDDE"
+                android:padding="10sp"
+                android:maxWidth="200px"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="메세지"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/profileIv_R"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="4dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

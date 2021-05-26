@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chat.project.openchat">
+
+
+    <!--
+        인터넷, 외부저장소 읽기,쓰기 , 카메라 권한 등록
+         manifest에 등록했더라도 외부저장소 읽기,쓰기, 카메라 권한은
+         사용자가 허용을 해주어야 한다.
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- android:requestLegacyExternalStorage="true" = > 외부 저장소 사진을 서버로 전송하기 위해서 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:usesCleartextTraffic="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="chat.project.openchat.View.ChatActivity"
+            android:windowSoftInputMode="adjustUnspecified"></activity>
+        <activity android:name="chat.project.openchat.View.JoinActivity" />
+        <activity android:name="chat.project.openchat.View.LoginActivity"
+            android:windowSoftInputMode="adjustUnspecified">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="chat.project.openchat.View.MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

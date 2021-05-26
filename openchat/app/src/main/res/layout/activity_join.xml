@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bdc3c7"
+    tools:context=".View.JoinActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4286f4">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="신규 계정 생성"
+            android:textColor="@android:color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity ="center"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/profileIv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:layout_gravity="center"
+                android:background="#ffffff"
+                app:srcCompat="@drawable/image_pius_256px"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오픈톡를 이용하기 위한\n새로운 계정을 생성합니다."
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:scrollbars="vertical"
+                android:overScrollMode="always"
+                android:layout_width="match_parent"
+                android:maxLines="20"
+                android:layout_height="100dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:hint="이용약관"
+                android:text="@string/agree"
+                android:paddingLeft="10dp"
+                android:textSize="10dp"
+                android:textColor="#231E31"
+                android:textColorHint="#CACACA" />
+
+            <CheckBox
+                android:id="@+id/signagreeCB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:buttonTint="#FFFFFF"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="동의함" />
+
+            <EditText
+                android:id="@+id/signidEt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:maxLength="11"
+                android:hint="아이디 입력"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="#231E31"
+                android:textColorHint="#CACACA" />
+
+            <EditText
+                android:id="@+id/signpwEt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="비밀번호"
+                android:maxLength="25"
+                android:background="#FFFFFF"
+                android:inputType="textPassword"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="#231E31"
+                android:textColorHint="#CACACA"/>
+
+
+            <EditText
+                android:id="@+id/signrepwEt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:hint="비밀번호 확인"
+                android:maxLength="25"
+                android:background="#FFFFFF"
+                android:inputType="textPassword"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="#231E31"
+                android:textColorHint="#CACACA"/>
+
+
+
+            <Button
+                android:id="@+id/signBtn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#323151"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20sp"
+                android:text="신규계정생성" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
