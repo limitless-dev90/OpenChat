@@ -7,7 +7,18 @@ server side code는 로그인, 회원가입, 오픈채팅방 목록, 오픈 채�
 
 (목적이 TCP 테스트 이기 때문에 하나도 정리 안된 코드 입니다.)
 
+# 서버 개발 환경
 
+  os : centOS
+
+  web server : apache2
+
+  DB : mysql
+
+
+# 사용 개발툴
+
+android studio, Atom, Oracle VM VirtualBox, MobaXterm_Personal_20.2, HeidiSQL, Postman
 
 
 # 프로젝트 시연 영상 URL
@@ -15,7 +26,8 @@ https://youtu.be/Q5OH8B004L0
 
 
 # TCP 서버 (로컬서버) 구동 방법
-환경 : windows10
+
+환경 : windows10 (로컬 PC)
 
 사용포트 : 5001
 
