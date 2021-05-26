@@ -3,24 +3,8 @@ TCP, kotlin 학습을 위해서 간단한 OpenChat 프로젝트
 
 # 화면 캡쳐
 
-로그인 화면
-
-![로그인 화면](https://user-images.githubusercontent.com/75319175/119645686-41308e00-be59-11eb-8136-bc1df007567f.PNG)
-
-
-회원가입 화면
-
-![회원가입화면](https://user-images.githubusercontent.com/75319175/119645709-4988c900-be59-11eb-96eb-601cc2cccd87.PNG)
-
-
-채팅방 목록 화면
-
-![채팅방목록](https://user-images.githubusercontent.com/75319175/119645743-52799a80-be59-11eb-91dd-b3afb5a7c38b.PNG)
-
-
-채탕방 화면
-
-![채팅방](https://user-images.githubusercontent.com/75319175/119645754-573e4e80-be59-11eb-94c5-39579fa4a799.PNG)
+![로그인 화면](https://user-images.githubusercontent.com/75319175/119645686-41308e00-be59-11eb-8136-bc1df007567f.PNG)![회원가입화면](https://user-images.githubusercontent.com/75319175/119645709-4988c900-be59-11eb-96eb-601cc2cccd87.PNG)
+![채팅방목록](https://user-images.githubusercontent.com/75319175/119645743-52799a80-be59-11eb-91dd-b3afb5a7c38b.PNG)![채팅방](https://user-images.githubusercontent.com/75319175/119645754-573e4e80-be59-11eb-94c5-39579fa4a799.PNG)
 
 
 
